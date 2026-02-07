@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Table Tennis Rally | GameHub</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="game-header">
+    <a href="../../index.html" class="btn">← Back to Menu</a>
+    <h1>Table Tennis Rally</h1>
+    <button id="fullscreenBtn" class="btn" type="button">Fullscreen</button>
+  </header>
+
+  <main class="game-shell" id="gameShell">
+    <section class="hud">
+      <p>Score: <strong id="score">0</strong></p>
+      <p>Best: <strong id="best">0</strong></p>
+      <button id="restartBtn" class="btn primary" type="button">Restart</button>
+    </section>
+    <section class="arena">
+      <p class="instructions">Click or tap the moving orb to score points. Missed clicks reduce score.</p>
+      <button id="target" class="target" aria-label="Target"></button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

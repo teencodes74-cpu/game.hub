@@ -1,0 +1,87 @@
+:root {
+  --bg: #020617;
+  --panel: #0f172a;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --accent: #3b82f6;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #111827, var(--bg));
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  min-height: 100vh;
+}
+.topbar {
+  text-align: center;
+  padding: 1.5rem 1rem .75rem;
+}
+.topbar p { color: var(--muted); margin: 0; }
+.layout {
+  width: min(1200px, 94vw);
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+.controls {
+  background: color-mix(in hsl, var(--panel), black 8%);
+  border: 1px solid #334155;
+  border-radius: .75rem;
+  padding: 1rem;
+}
+#searchInput {
+  width: 100%;
+  margin-top: .35rem;
+  border-radius: .5rem;
+  border: 1px solid #334155;
+  background: #0b1120;
+  color: var(--text);
+  padding: .65rem .75rem;
+}
+.chips { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .9rem; }
+.chip {
+  border: 1px solid #475569;
+  background: #0b1120;
+  color: var(--text);
+  border-radius: 999px;
+  padding: .4rem .8rem;
+  cursor: pointer;
+}
+.chip.active { background: var(--accent); border-color: var(--accent); }
+.count { color: var(--muted); margin-bottom: 0; }
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .9rem;
+}
+.game-card {
+  border: 1px solid #334155;
+  border-radius: .75rem;
+  overflow: hidden;
+  background: color-mix(in hsl, var(--panel), black 6%);
+  display: flex;
+  flex-direction: column;
+}
+.thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  background: #0b1120;
+}
+.card-content { padding: .8rem; display: grid; gap: .5rem; }
+.card-content h2 { margin: 0; font-size: 1rem; }
+.meta { margin: 0; color: var(--muted); }
+.btn {
+  display: inline-block;
+  border: 1px solid #475569;
+  border-radius: .5rem;
+  text-decoration: none;
+  color: var(--text);
+  background: #0f172a;
+  padding: .5rem .8rem;
+  cursor: pointer;
+}
+.play { background: linear-gradient(90deg, #2563eb, #3b82f6); border-color: #2563eb; }
+.load-more-wrap { display: grid; place-items: center; padding: 1rem 0 2rem; }
