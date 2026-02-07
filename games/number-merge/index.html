@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"> 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Number Merge | GameHub</title>
+  <link rel="stylesheet" href="../../games/_shared/game.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="game-header">
+    <a href="../../index.html" class="btn">← Back to Menu</a>
+    <h1>Number Merge</h1>
+    <button id="fullscreenBtn" class="btn" type="button">Fullscreen</button>
+  </header>
+  <main class="game-shell">
+    <section class="hud">
+      <p>Score: <strong id="score">0</strong></p>
+      <p>Best: <strong id="best">0</strong></p>
+      <button id="restartBtn" class="btn primary" type="button">Restart</button>
+    </section>
+    <p class="instructions" id="instructions"></p>
+    <section class="arena" id="arena"></section>
+  </main>
+  <script src="../../games/_shared/engine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

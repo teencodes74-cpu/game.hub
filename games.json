@@ -1,0 +1,484 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "slug": "maze-runner",
+      "name": "Maze Runner",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Maze Runner starter mini-game template"
+    },
+    {
+      "id": 2,
+      "slug": "space-shooter",
+      "name": "Space Shooter",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Space Shooter starter mini-game template"
+    },
+    {
+      "id": 3,
+      "slug": "puzzle-slider",
+      "name": "Puzzle Slider",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Puzzle Slider starter mini-game template"
+    },
+    {
+      "id": 4,
+      "slug": "football-penalty",
+      "name": "Football Penalty",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Football Penalty starter mini-game template"
+    },
+    {
+      "id": 5,
+      "slug": "platformer",
+      "name": "Platformer",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Platformer starter mini-game template"
+    },
+    {
+      "id": 6,
+      "slug": "memory-game",
+      "name": "Memory Game",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Memory Game starter mini-game template"
+    },
+    {
+      "id": 7,
+      "slug": "snake",
+      "name": "Snake",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Snake starter mini-game template"
+    },
+    {
+      "id": 8,
+      "slug": "tetris-like",
+      "name": "Tetris-like",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Tetris-like starter mini-game template"
+    },
+    {
+      "id": 9,
+      "slug": "flappy-style",
+      "name": "Flappy-style",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Flappy-style starter mini-game template"
+    },
+    {
+      "id": 10,
+      "slug": "breakout-style",
+      "name": "Breakout-style",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Breakout-style starter mini-game template"
+    },
+    {
+      "id": 11,
+      "slug": "asteroid-dash",
+      "name": "Asteroid Dash",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Asteroid Dash starter mini-game template"
+    },
+    {
+      "id": 12,
+      "slug": "ninja-jump",
+      "name": "Ninja Jump",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Ninja Jump starter mini-game template"
+    },
+    {
+      "id": 13,
+      "slug": "zombie-rush",
+      "name": "Zombie Rush",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Zombie Rush starter mini-game template"
+    },
+    {
+      "id": 14,
+      "slug": "tank-arena",
+      "name": "Tank Arena",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Tank Arena starter mini-game template"
+    },
+    {
+      "id": 15,
+      "slug": "laser-dodge",
+      "name": "Laser Dodge",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Laser Dodge starter mini-game template"
+    },
+    {
+      "id": 16,
+      "slug": "treasure-runner",
+      "name": "Treasure Runner",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Treasure Runner starter mini-game template"
+    },
+    {
+      "id": 17,
+      "slug": "sky-defender",
+      "name": "Sky Defender",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Sky Defender starter mini-game template"
+    },
+    {
+      "id": 18,
+      "slug": "alien-blitz",
+      "name": "Alien Blitz",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Alien Blitz starter mini-game template"
+    },
+    {
+      "id": 19,
+      "slug": "color-match",
+      "name": "Color Match",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Color Match starter mini-game template"
+    },
+    {
+      "id": 20,
+      "slug": "word-twist",
+      "name": "Word Twist",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Word Twist starter mini-game template"
+    },
+    {
+      "id": 21,
+      "slug": "number-merge",
+      "name": "Number Merge",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Number Merge starter mini-game template"
+    },
+    {
+      "id": 22,
+      "slug": "tile-connect",
+      "name": "Tile Connect",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Tile Connect starter mini-game template"
+    },
+    {
+      "id": 23,
+      "slug": "logic-grid",
+      "name": "Logic Grid",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Logic Grid starter mini-game template"
+    },
+    {
+      "id": 24,
+      "slug": "pattern-recall",
+      "name": "Pattern Recall",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Pattern Recall starter mini-game template"
+    },
+    {
+      "id": 25,
+      "slug": "block-shift",
+      "name": "Block Shift",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Block Shift starter mini-game template"
+    },
+    {
+      "id": 26,
+      "slug": "gem-combine",
+      "name": "Gem Combine",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Gem Combine starter mini-game template"
+    },
+    {
+      "id": 27,
+      "slug": "basket-shootout",
+      "name": "Basket Shootout",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Basket Shootout starter mini-game template"
+    },
+    {
+      "id": 28,
+      "slug": "cricket-smash",
+      "name": "Cricket Smash",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Cricket Smash starter mini-game template"
+    },
+    {
+      "id": 29,
+      "slug": "table-tennis-rally",
+      "name": "Table Tennis Rally",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Table Tennis Rally starter mini-game template"
+    },
+    {
+      "id": 30,
+      "slug": "goalkeeper-challenge",
+      "name": "Goalkeeper Challenge",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Goalkeeper Challenge starter mini-game template"
+    },
+    {
+      "id": 31,
+      "slug": "baseball-homerun",
+      "name": "Baseball Homerun",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Baseball Homerun starter mini-game template"
+    },
+    {
+      "id": 32,
+      "slug": "sprint-challenge",
+      "name": "Sprint Challenge",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Sprint Challenge starter mini-game template"
+    },
+    {
+      "id": 33,
+      "slug": "skate-tricks",
+      "name": "Skate Tricks",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Skate Tricks starter mini-game template"
+    },
+    {
+      "id": 34,
+      "slug": "cycling-dash",
+      "name": "Cycling Dash",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Cycling Dash starter mini-game template"
+    },
+    {
+      "id": 35,
+      "slug": "retro-racer",
+      "name": "Retro Racer",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Retro Racer starter mini-game template"
+    },
+    {
+      "id": 36,
+      "slug": "bubble-pop",
+      "name": "Bubble Pop",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Bubble Pop starter mini-game template"
+    },
+    {
+      "id": 37,
+      "slug": "pac-maze",
+      "name": "Pac Maze",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Pac Maze starter mini-game template"
+    },
+    {
+      "id": 38,
+      "slug": "pinball-pulse",
+      "name": "Pinball Pulse",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Pinball Pulse starter mini-game template"
+    },
+    {
+      "id": 39,
+      "slug": "frog-hop",
+      "name": "Frog Hop",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Frog Hop starter mini-game template"
+    },
+    {
+      "id": 40,
+      "slug": "brick-smash",
+      "name": "Brick Smash",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Brick Smash starter mini-game template"
+    },
+    {
+      "id": 41,
+      "slug": "coin-catcher",
+      "name": "Coin Catcher",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Coin Catcher starter mini-game template"
+    },
+    {
+      "id": 42,
+      "slug": "tower-stack",
+      "name": "Tower Stack",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Tower Stack starter mini-game template"
+    },
+    {
+      "id": 43,
+      "slug": "dungeon-escape",
+      "name": "Dungeon Escape",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Dungeon Escape starter mini-game template"
+    },
+    {
+      "id": 44,
+      "slug": "robot-raid",
+      "name": "Robot Raid",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Robot Raid starter mini-game template"
+    },
+    {
+      "id": 45,
+      "slug": "stealth-mission",
+      "name": "Stealth Mission",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Stealth Mission starter mini-game template"
+    },
+    {
+      "id": 46,
+      "slug": "cannon-strike",
+      "name": "Cannon Strike",
+      "category": "Action",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Cannon Strike starter mini-game template"
+    },
+    {
+      "id": 47,
+      "slug": "mind-bender",
+      "name": "Mind Bender",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Mind Bender starter mini-game template"
+    },
+    {
+      "id": 48,
+      "slug": "hex-rotate",
+      "name": "Hex Rotate",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Hex Rotate starter mini-game template"
+    },
+    {
+      "id": 49,
+      "slug": "sudoku-sprint",
+      "name": "Sudoku Sprint",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Sudoku Sprint starter mini-game template"
+    },
+    {
+      "id": 50,
+      "slug": "route-finder",
+      "name": "Route Finder",
+      "category": "Puzzle",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Route Finder starter mini-game template"
+    },
+    {
+      "id": 51,
+      "slug": "penalty-master",
+      "name": "Penalty Master",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Penalty Master starter mini-game template"
+    },
+    {
+      "id": 52,
+      "slug": "archery-ace",
+      "name": "Archery Ace",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Archery Ace starter mini-game template"
+    },
+    {
+      "id": 53,
+      "slug": "volley-pro",
+      "name": "Volley Pro",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Volley Pro starter mini-game template"
+    },
+    {
+      "id": 54,
+      "slug": "golf-putt",
+      "name": "Golf Putt",
+      "category": "Sports",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Golf Putt starter mini-game template"
+    },
+    {
+      "id": 55,
+      "slug": "pixel-invaders",
+      "name": "Pixel Invaders",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Pixel Invaders starter mini-game template"
+    },
+    {
+      "id": 56,
+      "slug": "neon-runner",
+      "name": "Neon Runner",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Neon Runner starter mini-game template"
+    },
+    {
+      "id": 57,
+      "slug": "orbit-hopper",
+      "name": "Orbit Hopper",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Orbit Hopper starter mini-game template"
+    },
+    {
+      "id": 58,
+      "slug": "turbo-tunnel",
+      "name": "Turbo Tunnel",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Turbo Tunnel starter mini-game template"
+    },
+    {
+      "id": 59,
+      "slug": "meteor-tap",
+      "name": "Meteor Tap",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Meteor Tap starter mini-game template"
+    },
+    {
+      "id": 60,
+      "slug": "quick-reflex",
+      "name": "Quick Reflex",
+      "category": "Arcade",
+      "thumbnail": "assets/default-thumbnail.svg",
+      "description": "Quick Reflex starter mini-game template"
+    }
+  ]
+}

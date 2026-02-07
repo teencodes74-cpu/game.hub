@@ -1,0 +1,17 @@
+:root{color-scheme:dark;--bg:#0b1020;--panel:#121a2e;--line:#2d3a5f;--text:#e6ecff;--muted:#9fb0dd;--accent:#4cc9f0}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,sans-serif;background:radial-gradient(circle at top,#1f2a4f,var(--bg));color:var(--text)}
+.game-header{display:flex;gap:.75rem;align-items:center;justify-content:space-between;padding:1rem;flex-wrap:wrap}
+.game-shell{width:min(960px,95vw);margin:0 auto 1.5rem;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:1rem}
+.hud{display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:.75rem}
+.btn{border:1px solid #4b5d90;background:#0c1530;color:var(--text);padding:.55rem .9rem;border-radius:8px;text-decoration:none;cursor:pointer}
+.btn.primary{background:linear-gradient(90deg,#2f80ed,#56ccf2);border-color:#4ba3ee}
+.instructions{color:var(--muted);margin:.25rem 0 .75rem}
+.arena{min-height:60vh;border:1px solid var(--line);border-radius:10px;background:#081022;padding:.75rem;position:relative;overflow:hidden}
+.game-board{display:grid;place-items:center;height:100%}
+.grid{display:grid;gap:4px}.cell{width:26px;height:26px;border-radius:4px;background:#1d2a4d}.cell.wall{background:#334a7d}.cell.player{background:#4ade80}.cell.goal{background:#f59e0b}
+.canvas{background:#050b18;border:1px solid #2b3c67;border-radius:8px;max-width:100%}
+.controls{display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.5rem}
+.card-grid{display:grid;grid-template-columns:repeat(4,64px);gap:8px;justify-content:center}
+.card{width:64px;height:64px;display:grid;place-items:center;border:1px solid #3a4d7d;border-radius:8px;background:#162447;font-weight:700;cursor:pointer}.card.revealed{background:#4cc9f0;color:#062032}
+.puzzle-grid{display:grid;grid-template-columns:repeat(3,80px);gap:6px;justify-content:center}.tile{width:80px;height:80px;display:grid;place-items:center;background:#1c2d55;border-radius:8px;cursor:pointer;font-size:1.2rem}.tile.empty{background:#0b1328}
+.bar-wrap{width:min(420px,90%);height:26px;border:1px solid #3a4d7d;border-radius:999px;position:relative;overflow:hidden;margin:1rem auto}.bar-target{position:absolute;left:42%;width:16%;height:100%;background:#22c55e44}.bar-marker{position:absolute;top:0;left:0;width:20px;height:100%;background:#f87171}
