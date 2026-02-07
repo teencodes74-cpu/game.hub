@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="GameHub browser arcade with dynamic game catalog" />
+  <title>GameHub Arcade</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>🎮 GameHub Arcade</h1>
+    <p>Discover and play mini-games instantly.</p>
+  </header>
+
+  <main class="layout">
+    <section class="controls" aria-label="Filter games">
+      <label for="searchInput">Search games</label>
+      <input id="searchInput" type="search" placeholder="Search by game name or category..." />
+      <div class="chips" id="categoryChips" role="tablist" aria-label="Game categories"></div>
+      <p class="count" id="resultCount"></p>
+    </section>
+
+    <section>
+      <div id="gameGrid" class="game-grid" aria-live="polite"></div>
+      <div class="load-more-wrap">
+        <button id="loadMoreBtn" type="button" class="btn">Load More</button>
+      </div>
+    </section>
+  </main>
+
+  <template id="gameCardTemplate">
+    <article class="game-card">
+      <img class="thumb" alt="" loading="lazy" />
+      <div class="card-content">
+        <h2></h2>
+        <p class="meta"></p>
+        <a class="btn play" href="#">Play</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
